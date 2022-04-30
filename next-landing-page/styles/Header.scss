@@ -1,0 +1,44 @@
+.header {
+  &_container {
+    &__image {
+      opacity: 25%;
+    }
+    &__title {
+        display: flex;
+        flex-direction: column;
+        font-family: 'Museo';
+        font-style: normal;
+      .head {
+        font-weight: 400;
+        font-size: 60px;
+        line-height: 100%;
+        background: linear-gradient(92.05deg, #2dea40 3.12%, #bfff37 81.34%);
+        -webkit-background-clip: text;
+        -webkit-text-fill-color: transparent;
+        background-clip: text;
+      }
+      .hyphen{
+        font-weight: 400;
+        font-size: 60px;
+        line-height: 100%;
+      }
+      .body{
+        font-weight: 400;
+        font-size: 60px;
+        line-height: 100%;
+        /* or 60px */
+        
+        
+        color: #FFFFFF;
+        
+        
+        /* Inside auto layout */
+        
+        flex: none;
+        order: 0;
+        flex-grow: 0;
+        margin: 50px 0px;
+      }
+    }
+  }
+}
