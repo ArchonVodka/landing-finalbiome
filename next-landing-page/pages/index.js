@@ -2,8 +2,13 @@ import Head from "next/head";
 // import Image from "next/image";
 // import ItemList from "../components/ItemList/ItemList";
 // import HeaderBackGround from "../assets/HeaderBackground/HeaderBackground";
-import Header from "./Header/Header";
+import Header from "./Header";
 import styles from "../styles/Home.module.css";
+import Solution from "./Solution";
+import HowItWorks from "./HowItWorks";
+import RoadMap from "./Roadmap";
+import WhitePaper from "./WhitePaper";
+import Contacts from "./Constcts";
 
 export default function Home() {
   return (
@@ -15,7 +20,12 @@ export default function Home() {
       </Head>
 
       <main className={styles.main}>
-        <Header/>
+        <Header />
+        <Solution />
+        <HowItWorks />
+        <RoadMap />
+        <WhitePaper />
+        <Contacts />
       </main>
     </div>
   );
